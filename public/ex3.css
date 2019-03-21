@@ -1,0 +1,36 @@
+.container{
+    display:grid;
+    grid-template-areas:
+            "header header header"
+            "section article article"
+            "footer footer footer";
+    grid-gap: 5px;
+}
+
+header{
+    grid-area: header;
+    background-color: yellow;
+    padding-left: 20px;
+}
+
+section{
+    grid-area: section;
+    background-color: darkcyan;
+    padding-left: 20px;
+    font-size: 30px;
+
+}
+
+article{
+    grid-area: article;
+    background-color: mediumspringgreen;
+    padding-left: 20px;
+
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: orange;
+    padding-left: 20px;
+}
